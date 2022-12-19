@@ -22,8 +22,8 @@ bp = Blueprint('main',__name__,url_prefix='/')
 
 model = models.resnet34(pretrained=True)
 num_features = model.fc.in_features
-model.fc = nn.Linear(num_features, 3)
-model.load_state_dict(torch.load('C:/team3/covidproject/covid/models/model_dict.pth'), strict=False)
+model.fc = nn.Linear(num_features, 2)
+model.load_state_dict(torch.load('C:/team3/covidproject/covid/models/38-model_dict3.pth'), strict=False)
 model.eval()
 print('모델 로드 완료')
 transforms_test = transforms.Compose([

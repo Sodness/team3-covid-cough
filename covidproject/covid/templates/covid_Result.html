@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inspection results</title>
+</head>
+<body>
+    <div>
+      <a>{{ pred }}</a>
+      {% if pred == 1 %}
+        <a>양성</a>
+      {% else %}
+        <a>음성</a>
+      {% endif %}
+    </div>
+</body>
+</html>

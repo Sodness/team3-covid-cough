@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8">
+    <title>Recording</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/css/Recording_styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class = "mic-container">
+      <h1>녹음 버튼을 누르고 기침소리를 녹음해주세요.</h1>
+      <div class="display">
+       <button id="recordButton"  class="button5 find-btn1" >Record</button>
+       <button id="pauseButton" class="button5 find-btn1" disabled>Pause</button>
+       <button id="stopButton"  class="button5 find-btn1" disabled>Stop</button>
+      </div>
+      <div id="formats"></div>
+      <ol id="recordingsList"></ol>
+    </div>
+    <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+    <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+    <script src="/static/js/Recording_scripts.js"></script>
+
+  </body>
+</html>

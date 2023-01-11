@@ -1,0 +1,4 @@
+<전체 데이터>
+https://dacon.io/competitions/official/235910/data
+<추가 csv파일> (Unlabeled.csv)
+https://www.dacon.io/competitions/official/235910/talkboard/406384?page=1&dtype=recent
